@@ -1,0 +1,96 @@
+Part A
+
+0 0 0 0 0 0 0 0
+0+0+0+0+0+0+0+0= 0
+
+1 0 0 1 0 1 0 0
+128+0+0+16+0+4+0+0= 148
+
+0 1 1 0 1 1 1 1
+0+64+32+0+8+4+2+1= 111
+
+1 0 0 1 1 0 0 1
+128+0+0+16+8+0+0+1= 153
+
+1 1 1 1 1 1 1 1 
+128+64+32+16+8+4+2+1= 255
+
+1 0 1 1 0 0 0 1
+128+0+32+16+0+0+0+1= 177
+
+1 1 1 0 0 1 0 1
+128+64+32+0+0+4+0+1= 229
+
+1 0 1 0 1 0 1 0
+128+0+32+0+8+0+2+0= 170
+
+1 1 0 1 0 1 0 1
+128+64+0+16+0+4+0+1= 213
+
+1 1 1 0 0 0 0 1
+128+64+32+0+0+0+0+1= 225
+
+1 0 0 1 0 1 1 0
+128+0+0+16+0+4+2+0= 150
+
+1 0 1 0 1 1 1 0 1 0 0
+1024+0+256+0+64+32+16+0+4+0+0= 1,396
+
+1 1 1 1 1 1 0 1 0 1 1 0 0 1 
+8192+4096+2048+1024+512+256+0+64+0+16+8+0+0+1= 16,217
+
+1 1 0 1 0 1 0 0 1 0 1 0 1 1 1 0
+32768+16384+0+4096+0+1024+0+0+128+0+32+0+8+4+2+0= 54,446
+
+
+Part 2
+
+255= 11111111
+
+90= 1011010
+
+47= 101111
+
+1024= 10000000000
+
+674= 1010100010
+
+1000= 1111101000
+
+2048= 100000000000
+
+1774= 11011101110
+
+2020= 11111100100
+
+
+Part 3
+
+#Converting Binary to Decimal
+
+Locate binary numbers from list
+begin with first binary number on list
+read bits from right to left
+label digits starting from right to left beginning with the number 0 and in incriments of 1
+using a base of 2, calculate the base raised to the each label
+mutiple the product calculated with it's assigned bit
+add the products together
+print the added product
+repeat for next binary number until end of list of binary numbers
+
+#Converting Decimal to Binary
+
+Locate the decimal numbers from list
+begin with first decimal number on list
+devide the decimal number by two
+if remainder is 0, output a 0 bit
+if remainder is 1, output a 1 bit
+divide the integer quotient by two until the quotient equals 0.
+if remainder is 0, output a 0 bit
+if remainder is 1, output a 1 bit
+print the outputed bits starting from the last bit, from left to right
+repeat until all decimal numbers on list have been converted
+
+
+
+

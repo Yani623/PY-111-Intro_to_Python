@@ -12,7 +12,7 @@
 
 ########################
 
-## assigning a value. name is the placeholder and "Yani" is the parameter.
+## assigning a value. name is the placeholder/parameter and "Yani" is the argument.
 def printIt(name = "Yani"):
     print(f"Hi my name is {name}")
     ## f in parenthesis is the f string function. 

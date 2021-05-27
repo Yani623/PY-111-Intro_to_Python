@@ -18,7 +18,7 @@ def printIt(name = "Yani"):
     ## f in parenthesis is the f string function. 
 
 printIt()
-printIt("Camila")
+# printIt("Camila")
     ## output =  Hi my name is Yani
     ##           Hi my name is Camila
 

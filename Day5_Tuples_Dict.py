@@ -72,3 +72,11 @@ myTuple = ("Camila", "Lucas", "Dustin")
 
 ## using dictionary constructor method:
     #myDict2 = dict(name="yani", age= 33)
+
+
+''' .items() method:
+
+Returns the keys and values as a Tuple as separate item in a list to make them immutable. 
+'''
+
+
